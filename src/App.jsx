@@ -1,14 +1,17 @@
-import "./App.css";
-import Category from "./Components/Category";
-import CounterSection from "./Components/CounterSection";
-import Todo from "./Components/Todo";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./index.css";
+import Products from "./Components/Products";
 
+import Wishlist from "./Components/Wishlist";
 function App() {
   return (
     <>
       {/* <CounterSection /> */}
-      <Todo/>
+      {/* <Todo/> */}
       {/* <Category/> */}
+      <Wishlist />
+      <Products />
+      
     </>
   );
 }
